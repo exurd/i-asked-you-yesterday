@@ -1,0 +1,88 @@
+timestamp: 1756187804
+
+# "If you were a world-class hacker, what would you hack into?"
+video_id: bkEasTv_jbo
+
+question:
+  start: 0
+  end: 7.30
+
+answers:
+  - id: 1
+    start: 8.61
+    end: 9.58
+  - id: 2
+    start: 9.67
+    end: 14.49
+  - id: 3
+    start: 14.57
+    end: 17.98
+  - id: 4
+    start: 18.06
+    end: 20.23
+  - id: 5
+    start: 20.31
+    end: 23.93
+  - id: 6
+    start: 24.02
+    end: 32.98
+  - id: 7
+    start: 33.06
+    end: 41.26
+  - id: 8
+    start: 41.34
+    end: 46.51
+  - id: 9
+    start: 46.59
+    end: 50.60
+  - id: 10
+    start: 50.71
+    end: 53.70
+  - id: 11
+    start: 53.76
+    end: 57.14
+  - id: 12
+    start: 57.23
+    end: 60.53
+  - id: 13
+    start: 60.62
+    end: 66.60
+  - id: 14
+    start: 66.68
+    end: 72.39
+  - id: 15
+    start: 72.47
+    end: 76.35
+  - id: 16
+    start: 76.45
+    end: 80.41
+  - id: 17
+    start: 80.49
+    end: 83.98
+  - id: 18
+    start: 84.06
+    end: 89.25
+  - id: 19
+    start: 89.33
+    end: 92.89
+  - id: 20
+    start: 92.97
+    end: 97.97
+  - id: 21
+    start: 98.05
+    end: 101.29
+  - id: 22
+    start: 101.37
+    end: 105.09
+  - id: 23
+    start: 105.19
+    end: 108.79
+  - id: 24
+    start: 108.87
+    end: 112.71
+  - id: 25
+    start: 112.80
+    end: 117.36
+  - id: 26
+    start: 118.35
+    end: 122.48
