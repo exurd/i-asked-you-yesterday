@@ -1,0 +1,88 @@
+timestamp: 1756229048
+
+# Name our new puppy!
+video_id: lnfmId5nsjk
+
+question:
+  start: 0
+  end: 3.27
+
+answers:
+  - id: 1
+    start: 4.46
+    end: 5.64
+  - id: 2
+    start: 5.72
+    end: 7.43
+  - id: 3
+    start: 7.51
+    end: 8.35
+  - id: 4
+    start: 8.44
+    end: 9.73
+  - id: 5
+    start: 9.82
+    end: 11.44
+  - id: 6
+    start: 11.52
+    end: 13.63
+  - id: 7
+    start: 13.71
+    end: 14.50
+  - id: 8
+    start: 14.58
+    end: 17.31
+  - id: 9
+    start: 17.39
+    end: 19.04
+  - id: 10
+    start: 19.12
+    end: 19.92
+  - id: 11
+    start: 20.00
+    end: 21.96
+  - id: 12
+    start: 22.01
+    end: 24.20
+  - id: 13
+    start: 24.27
+    end: 27.33
+  - id: 14
+    start: 27.41
+    end: 28.28
+  - id: 15
+    start: 28.37
+    end: 35.61
+  - id: 16
+    start: 35.70
+    end: 36.55
+  - id: 17
+    start: 38.32
+    end: 40.39
+  - id: 18
+    start: 40.47
+    end: 41.89
+  - id: 19
+    start: 41.97
+    end: 46.49
+  - id: 20
+    start: 46.57
+    end: 55.78
+  - id: 21
+    start: 55.86
+    end: 58.75
+  - id: 22
+    start: 58.83
+    end: 60.57
+  - id: 23
+    start: 60.67
+    end: 61.94
+  - id: 24
+    start: 62.02
+    end: 67.16
+  - id: 25
+    start: 67.24
+    end: 70.36
+  - id: 26
+    start: 71.36
+    end: 78.09
