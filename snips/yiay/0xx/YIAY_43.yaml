@@ -1,0 +1,82 @@
+timestamp: 0
+
+# What's a great April Fools' Day prank?
+video_id: oJ9CtyA4JNg
+
+question:
+  start: 0
+  end: 3.90
+
+answers:
+  - id: 1
+    start: 5.43
+    end: 7.27
+  - id: 2
+    start: 7.38
+    end: 8.05
+  - id: 3
+    start: 8.14
+    end: 10.03
+  - id: 4
+    start: 10.11
+    end: 12.70
+  - id: 5
+    start: 12.79
+    end: 14.21
+  - id: 6
+    start: 14.29
+    end: 17.76
+  - id: 7
+    start: 17.84
+    end: 18.47
+  - id: 8
+    start: 18.55
+    end: 22.21
+  - id: 9
+    start: 22.29
+    end: 29.14
+  - id: 10
+    start: 29.28
+    end: 36.87
+  - id: 11
+    start: 36.95
+    end: 38.55
+  - id: 12
+    start: 38.63
+    end: 44.61
+  - id: 13
+    start: 44.69
+    end: 47.63
+  - id: 14
+    start: 47.72
+    end: 51.27
+  - id: 15
+    start: 51.37
+    end: 55.56
+  - id: 16
+    start: 55.66
+    end: 59.87
+  - id: 17
+    start: 59.93
+    end: 64.08
+  - id: 18
+    start: 64.16
+    end: 66.37
+  - id: 19
+    start: 66.45
+    end: 67.89
+  - id: 20
+    start: 67.97
+    end: 70.99
+  - id: 21
+    start: 71.08
+    end: 73.14
+  - id: 22
+    start: 73.23
+    end: 75.55
+  - id: 23
+    start: 75.63
+    end: 83.30
+  - id: 24
+    start: 84.31
+    end: 92.07
