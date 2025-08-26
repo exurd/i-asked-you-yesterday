@@ -2,7 +2,7 @@
 *YIAY question and answers segment downloader*
 
 ## How to use
-1. Download and install [Python](https://www.python.org/) and [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+1. Download and install [Python](https://www.python.org/), [FFmpeg](https://ffmpeg.org/) and [yt-dlp](https://github.com/yt-dlp/yt-dlp)
     1. Make sure they're both on the PATH so the videos can be downloaded. For yt-dlp, [a third party manager is recommended](https://github.com/yt-dlp/yt-dlp/wiki/Installation#third-party-package-managers).
 2. Clone this repository (or download the .zip file of the code via the green button above)
 3. Install pip requirements (`pip install -r requirements.txt`)
