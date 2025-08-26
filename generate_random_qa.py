@@ -25,16 +25,15 @@ cmd = [
     "-i", q_path,
     "-i", a_path,
     "-filter_complex",
-    "[0:v:0]scale=1920:1080:force_original_aspect_ratio=decrease,"
+    "[0:v]scale=1920:1080:force_original_aspect_ratio=decrease,"
     "pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1[v0];"
-    "[1:v:0]scale=1920:1080:force_original_aspect_ratio=decrease,"
+    "[1:v]scale=1920:1080:force_original_aspect_ratio=decrease,"
     "pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1[v1];"
-    "[0:a:0]aresample=async=1[a0];"
-    "[1:a:0]aresample=async=1[a1];"
-    "[v0][a0][v1][a1]concat=n=2:v=1:a=1[outv][outa];"
-    "[outa]loudnorm=I=-16:TP=-1.5:LRA=11[normaudio]",
-    "-map", "[outv]",
-    "-map", "[normaudio]",
+    "[0:a][1:a]concat=n=2:v=0:a=1[aout];"
+    "[v0][v1]concat=n=2:v=1:a=0[vout];"
+    "[aout]loudnorm=I=-16:TP=-1.5:LRA=11[audio]",
+    "-map", "[vout]",
+    "-map", "[audio]",
     "-c:v", "libx264", "-crf", "23", "-preset", "fast",
     "-c:a", "aac", "-b:a", "128k",
     "random_qa.mp4"
