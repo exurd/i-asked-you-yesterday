@@ -1,3 +1,4 @@
+import os
 import subprocess
 from pathlib import Path
 
@@ -7,6 +8,36 @@ try:
     from yaml import CLoader as Loader, CDumper as Dumper
 except ImportError:
     from yaml import Loader, Dumper
+
+
+# create video id archive
+vid_archive = []
+os.makedirs("./segment_downloads", exist_ok=True)
+vid_archive_path = "./segment_downloads/vid_archive.txt"
+if not os.path.exists(vid_archive_path):
+    with open(vid_archive_path, "w") as f:
+        pass
+
+with open(vid_archive_path, "r") as file:
+    vid_archive = [line.strip() for line in file]
+
+
+def add_to_vid_archive(video_id):
+    """
+    Adds a downloaded video to the archive so it won't be checked again on later
+    runs of this script.
+    """
+    global vid_archive
+    try:
+        vid_archive.append(video_id)
+        with open(vid_archive_path, "a") as f:
+            f.write(video_id)
+            f.write("\n")
+            f.close()
+        return True
+    except:
+        print(f"Error saving video id archive to disk! {e}")
+    return False
 
 
 # getting the specific segment timestamps (seconds and milliseconds) can be
@@ -69,6 +100,11 @@ def process(v_data, filename):
 
     video_id = v_data["video_id"]
 
+    # check if in video id archive
+    if video_id in vid_archive:
+        print("Video has already been downloaded; skipping!")
+        return None
+
     # download question
     if "question" in v_data:
         q = v_data["question"]
@@ -93,6 +129,11 @@ def process(v_data, filename):
             section_timestamps=section_timestamps,
             name=filename.removesuffix(".yaml"),
             type="answer")
+    
+    # add to video id archive
+    add_to_vid_archive(video_id)
+
+    return True
 
 
 snips_folder = Path("snips")
