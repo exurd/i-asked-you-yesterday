@@ -1,0 +1,96 @@
+timestamp: 1756186499
+
+# How do you get ready for a first date?
+video_id: kYI6JuExGwI
+
+question:
+  start: 0
+  end: 3.99
+
+answers:
+  - id: 1
+    start: 16.18
+    end: 17.45
+  - id: 2
+    start: 17.54
+    end: 18.22
+  - id: 3
+    start: 18.30
+    end: 22.88
+  - id: 4
+    start: 23.03
+    end: 26.18
+  - id: 5
+    start: 26.26
+    end: 28.67
+  - id: 6
+    start: 28.75
+    end: 34.17
+  - id: 7
+    start: 34.25
+    end: 39.04
+  - id: 8
+    start: 39.12
+    end: 40.50
+  - id: 9
+    start: 40.59
+    end: 42.82
+  - id: 10
+    start: 42.89
+    end: 45.83
+  - id: 11
+    start: 45.91
+    end: 48.82
+  - id: 12
+    start: 48.90
+    end: 52.65
+  - id: 13
+    start: 52.75
+    end: 55.51
+  - id: 14
+    start: 55.59
+    end: 59.15
+  - id: 15
+    start: 59.23
+    end: 61.17
+  - id: 16
+    start: 61.25
+    end: 63.88
+  - id: 17
+    start: 63.97
+    end: 66.33
+  - id: 18
+    start: 66.41
+    end: 68.21
+  - id: 19
+    start: 68.29
+    end: 69.38
+  - id: 20
+    start: 69.46
+    end: 73.94
+  - id: 21
+    start: 74.02
+    end: 77.47
+  - id: 22
+    start: 77.55
+    end: 81.53
+  - id: 23
+    start: 81.61
+    end: 88.26
+  - id: 24
+    start: 88.35
+    end: 91.03
+  - id: 25
+    start: 91.09
+    end: 94.72
+  - id: 26
+    start: 94.80
+    end: 100.41
+  - id: 27
+    start: 101.49
+    end: 103.99
+  # screw it, the sponsor counts
+  # as an answer. fight me
+  - id: 28
+    start: 104.06
+    end: 124.30
