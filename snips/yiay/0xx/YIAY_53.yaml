@@ -1,0 +1,70 @@
+timestamp: 1756229048
+
+# What's your yearbook quote?
+video_id: OoWqSeXzahg
+
+question:
+  start: 0
+  end: 3.70
+
+answers:
+  - id: 1
+    start: 5.07
+    end: 5.82
+  - id: 2
+    start: 5.88
+    end: 6.74
+  - id: 3
+    start: 6.83
+    end: 10.00
+  - id: 4
+    start: 10.09
+    end: 11.53
+  - id: 5
+    start: 11.62
+    end: 12.71
+  - id: 6
+    start: 12.80
+    end: 17.68
+  - id: 7
+    start: 17.76
+    end: 20.25
+  - id: 8
+    start: 20.33
+    end: 24.65
+  - id: 9
+    start: 24.73
+    end: 25.67
+  - id: 10
+    start: 25.76
+    end: 27.86
+  - id: 11
+    start: 27.94
+    end: 31.56
+  - id: 12
+    start: 31.71
+    end: 34.46
+  - id: 13
+    start: 34.54
+    end: 40.39
+  - id: 14
+    start: 40.48
+    end: 42.92
+  - id: 15
+    start: 43.00
+    end: 44.72
+  - id: 16
+    start: 44.81
+    end: 46.44
+  - id: 17
+    start: 46.53
+    end: 47.88
+  - id: 18
+    start: 47.96
+    end: 49.93
+  - id: 19
+    start: 50.02
+    end: 50.93
+  - id: 20
+    start: 51.99
+    end: 55.35
