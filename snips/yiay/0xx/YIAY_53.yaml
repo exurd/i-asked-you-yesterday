@@ -3,9 +3,10 @@ timestamp: 1756229048
 # What's your yearbook quote?
 video_id: OoWqSeXzahg
 
-question:
-  start: 0
-  end: 3.70
+questions:
+  - id: 1
+    start: 0
+    end: 3.70
 
 answers:
   - id: 1

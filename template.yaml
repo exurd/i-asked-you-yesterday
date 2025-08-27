@@ -3,9 +3,12 @@ timestamp: 0
 # Question here
 video_id: ID_HERE
 
-question:
-  start: 
-  end: 
+questions:
+  # NOTE: DO NOT PUT THE END QUESTION FOR THE NEXT YIAY IN HERE!
+  # Remove this comment before submitting a pull request.
+  - id: 1
+    start: 
+    end: 
 
 answers:
   - id: 1

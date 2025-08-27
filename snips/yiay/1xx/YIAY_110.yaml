@@ -3,9 +3,10 @@ timestamp: 1756229048
 # What's the best way to tell your kid they're adopted?
 video_id: I5VFpizG7gU
 
-question:
-  start: 30.26
-  end: 34.77
+questions:
+  - id: 1
+    start: 30.26
+    end: 34.77
 
 answers:
   - id: 1

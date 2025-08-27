@@ -17,6 +17,7 @@ YT_VIDEO_ID_PATTERN = re.compile(r"^[A-Za-z0-9_-]{11}$")
 
 
 def test_segment(segment, filename, segment_type):
+    print(f"Testing {segment_type}: {segment}")
     t_start = segment["start"]
     t_end = segment["end"]
 
@@ -52,31 +53,13 @@ def test_file(v_data, filename):
         raise Exception(f"{filename}: YT Video ID is not valid for {video_id}")
 
 
-    # check if `question` is in v_data
-    # may be changed to `questions` later to
-    # support multiple questions in a YIAY video
-    if not "question" in v_data:
+    # check if `questions` is in v_data
+    if not "questions" in v_data:
         warn(f"{filename}: Questions was not found in YAML file")
-
-
-    # check timestamp in question
-    question = v_data["question"]
-    t_start = question["start"]
-    t_end = question["end"]
-
-    # check if timestamps are not added (or None)
-    if t_start is None or t_end is None:
-        raise Exception(f"{filename}: Question 1 has empty timestamps! {question}")
-
-    # check if duration is negative
-    duration = t_end - t_start
-    if duration < 0:
-        raise Exception(f"{filename}: Question 1's duration is negative!"
-                        f"\n{t_end} - {t_start} = {t_end - t_start}")
-
-    # warn if duration is longer than half a minute (30 seconds)
-    if duration > 30:
-        warn(f"{filename}: Question 1 is over {duration} seconds long.")
+    else:
+        # check timestamps in questions
+        for question in v_data["questions"]:
+            test_segment(question, filename, "Question")
 
 
     # check if `answers` is in v_data

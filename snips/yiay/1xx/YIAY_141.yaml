@@ -3,9 +3,10 @@ timestamp: 1756229048
 # What is your nerdiest joke?
 video_id: ua8hIslIpJ8
 
-question:
-  start: 0
-  end: 5.15
+questions:
+  - id: 1
+    start: 0
+    end: 5.15
 
 answers:
   - id: 1

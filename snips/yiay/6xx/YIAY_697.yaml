@@ -3,9 +3,10 @@ timestamp: 1756175606
 # What's the Best Way to Get Around YouTube's Age Verification AI?
 video_id: wyrMjGZg_Z8
 
-question:
-  start: 22.70
-  end: 29.92
+questions:
+  - id: 1
+    start: 22.70
+    end: 29.92
 
 answers:
   - id: 1

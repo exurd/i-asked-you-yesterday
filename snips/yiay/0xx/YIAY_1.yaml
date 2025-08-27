@@ -3,9 +3,10 @@ timestamp: 1756180252
 # What Would You Do If You Won the Super Bowl?
 video_id: 0uh2UCmpwIY
 
-question:
-  start: 0
-  end: 4.85
+questions:
+  - id: 1
+    start: 0
+    end: 4.85
 
 answers:
   - id: 1

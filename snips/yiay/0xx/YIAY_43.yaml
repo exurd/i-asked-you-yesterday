@@ -3,9 +3,10 @@ timestamp: 1756182289
 # What's a great April Fools' Day prank?
 video_id: oJ9CtyA4JNg
 
-question:
-  start: 0
-  end: 3.90
+questions:
+  - id: 1
+    start: 0
+    end: 3.90
 
 answers:
   - id: 1

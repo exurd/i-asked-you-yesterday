@@ -61,7 +61,7 @@ def run_com(command):
     return False
 
 
-def download_yt_segment_MULTI(video_id, section_timestamps, name, type):
+def download_yt_segment(video_id, section_timestamps, name, type):
     command = [
         "yt-dlp",
         f"https://www.youtube.com/watch?v={video_id}",
@@ -72,18 +72,6 @@ def download_yt_segment_MULTI(video_id, section_timestamps, name, type):
     for section in section_timestamps:
         command.append("--download-sections")
         command.append(section)
-    return run_com(command)
-
-
-
-def download_yt_segment_SINGLE(video_id, section_timestamp, name, type):
-    command = [
-        "yt-dlp",
-        f"https://www.youtube.com/watch?v={video_id}",
-        "--force-keyframes-at-cuts",  # https://github.com/yt-dlp/yt-dlp/issues/2220#issuecomment-2579162159
-        "-t", "mp4", "-o", f"./segment_downloads/{type}s/{name}_{type}.%(ext)s",
-        "--download-sections", section_timestamp,
-    ]
     return run_com(command)
 
 
@@ -105,14 +93,17 @@ def process(v_data, filename):
         print("Video has already been downloaded; skipping!")
         return None
 
-    # download question
-    if "question" in v_data:
-        q = v_data["question"]
-        t_start = q["start"]
-        t_end = q["end"]
-        download_yt_segment_SINGLE(
+    # download questions
+    if "questions" in v_data:
+        section_timestamps = []
+        for question in v_data["questions"]:
+            t_start = question["start"]
+            t_end = question["end"]
+            section_timestamps.append(f"*{t_start}-{t_end}")
+        
+        download_yt_segment(
             video_id=video_id,
-            section_timestamp=f"*{t_start}-{t_end}",
+            section_timestamps=section_timestamps,
             name=filename.removesuffix(".yaml"),
             type="question")
     
@@ -124,7 +115,7 @@ def process(v_data, filename):
             t_end = answer["end"]
             section_timestamps.append(f"*{t_start}-{t_end}")
         
-        download_yt_segment_MULTI(
+        download_yt_segment(
             video_id=video_id,
             section_timestamps=section_timestamps,
             name=filename.removesuffix(".yaml"),

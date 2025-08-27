@@ -3,9 +3,10 @@ timestamp: 1756256898
 # What should we put on YIAY's tombstone?
 video_id: nhd5r-FtY6s
 
-question:
-  start: 14.87
-  end: 18.68
+questions:
+  - id: 1
+    start: 14.87
+    end: 18.68
 
 answers:
   - id: 1

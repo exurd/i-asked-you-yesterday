@@ -3,9 +3,10 @@ timestamp: 1756182289
 # Book Sequels That Don't Exist
 video_id: lA5Hpo72r0Y
 
-question:
-  start: 0
-  end: 5.79
+questions:
+  - id: 1
+    start: 0
+    end: 5.79
 
 answers:
   - id: 1

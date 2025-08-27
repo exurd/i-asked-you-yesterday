@@ -3,9 +3,10 @@ timestamp: 1756225299
 # Make up your best "fake facts"
 video_id: FcQeeutP8yo
 
-question:
-  start: 0
-  end: 3.92
+questions:
+  - id: 1
+    start: 0
+    end: 3.92
 
 answers:
   - id: 1

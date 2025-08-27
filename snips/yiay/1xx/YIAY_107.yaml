@@ -3,9 +3,10 @@ timestamp: 1756187804
 # "If you were a world-class hacker, what would you hack into?"
 video_id: bkEasTv_jbo
 
-question:
-  start: 0
-  end: 7.30
+questions:
+  - id: 1
+    start: 0
+    end: 7.30
 
 answers:
   - id: 1

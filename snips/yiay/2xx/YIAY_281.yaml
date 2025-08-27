@@ -3,9 +3,10 @@ timestamp: 1756186499
 # How do you get ready for a first date?
 video_id: kYI6JuExGwI
 
-question:
-  start: 0
-  end: 3.99
+questions:
+  - id: 1
+    start: 0
+    end: 3.99
 
 answers:
   - id: 1

@@ -3,9 +3,10 @@ timestamp: 1756243494
 # The Most Cursed Comment Section of 2022
 video_id: xVdO4HZZrwU
 
-question:
-  start: 1.63
-  end: 5.73
+questions:
+  - id: 1
+    start: 1.63
+    end: 5.73
 
 answers:
   - id: 1

@@ -3,9 +3,10 @@ timestamp: 1756229048
 # What song do you make love to?
 video_id: SVGMVZCrwIk
 
-question:
-  start: 0
-  end: 3.35
+questions:
+  - id: 1
+    start: 0
+    end: 3.35
 
 answers:
   - id: 1

@@ -3,9 +3,10 @@ timestamp: 1756229048
 # Name our new puppy!
 video_id: lnfmId5nsjk
 
-question:
-  start: 0
-  end: 3.27
+questions:
+  - id: 1
+    start: 0
+    end: 3.27
 
 answers:
   - id: 1
