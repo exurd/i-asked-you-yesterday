@@ -1,0 +1,128 @@
+timestamp: 1756301112
+
+# What is the best way to dump someone?
+video_id: MLeIBFYY6UY
+
+questions:
+  - id: 1
+    start: 0
+    end: 4.00
+
+answers:
+  - id: 1
+    start: 5.64
+    end: 7.47
+  - id: 2
+    start: 7.82
+    end: 9.91
+  - id: 3
+    start: 10.14
+    end: 11.88
+  - id: 4
+    start: 12.17
+    end: 14.61
+  - id: 5
+    start: 14.69
+    end: 16.04
+  - id: 6
+    start: 16.12
+    end: 17.16
+  - id: 7
+    start: 17.24
+    end: 19.85
+  - id: 8
+    start: 19.94
+    end: 21.37
+  - id: 9
+    start: 21.45
+    end: 23.54
+  - id: 10
+    start: 23.62
+    end: 26.44
+  - id: 11
+    start: 26.52
+    end: 28.13
+  - id: 12
+    start: 28.21
+    end: 28.86
+  - id: 13
+    start: 28.96
+    end: 31.77
+  - id: 14
+    start: 31.85
+    end: 34.48
+  - id: 15
+    start: 34.56
+    end: 37.82
+  - id: 16
+    start: 37.91
+    end: 39.86
+  - id: 17
+    start: 39.94
+    end: 42.00
+  - id: 18
+    start: 42.08
+    end: 43.08
+  - id: 19
+    start: 43.16
+    end: 43.80
+  - id: 20
+    start: 43.89
+    end: 49.02
+  - id: 21
+    start: 49.10
+    end: 54.46
+  - id: 22
+    start: 54.55
+    end: 58.06
+  - id: 23
+    start: 58.15
+    end: 66.03
+  - id: 24
+    start: 66.11
+    end: 69.17
+  - id: 25
+    start: 69.25
+    end: 70.86
+  - id: 26
+    start: 70.95
+    end: 72.03
+  - id: 27
+    start: 72.12
+    end: 74.70
+  - id: 28
+    start: 74.78
+    end: 77.03
+  - id: 29
+    start: 77.12
+    end: 79.37
+  - id: 30
+    start: 79.45
+    end: 82.13
+  - id: 31
+    start: 82.21
+    end: 84.30
+  - id: 32
+    start: 84.39
+    end: 86.01
+  - id: 33
+    start: 86.09
+    end: 89.07
+  - id: 34
+    start: 89.15
+    end: 92.69
+  - id: 35
+    start: 92.78
+    end: 96.71
+  - id: 36
+    start: 96.80
+    end: 101.02
+  - id: 37
+    start: 101.11
+    end: 102.32
+  - id: 38
+    start: 102.41
+    end: 115.76
+  - id: 39
+    start: 115.84
+    end: 117.88
