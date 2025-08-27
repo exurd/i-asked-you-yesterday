@@ -20,13 +20,19 @@ def test_segment(segment, filename, segment_type):
     t_start = segment["start"]
     t_end = segment["end"]
 
+    # check if timestamps are not added (or None)
     if t_start is None or t_end is None:
         raise Exception(f"{filename}: {segment_type} {segment['id']} has empty timestamps! {segment}")
 
+    # check if duration is negative
     duration = t_end - t_start
-    if (duration < 0):
+    if duration < 0:
         raise Exception(f"{filename}: {segment_type} {segment['id']}'s duration is negative!"
                         f"\n{t_end} - {t_start} = {t_end - t_start}")
+    
+    # warn if duration is longer than half a minute (30 seconds)
+    if duration > 30:
+        warn(f"{filename}: {segment_type} {segment['id']} is over {duration} seconds long.")
 
 
 def test_file(v_data, filename):
@@ -58,13 +64,19 @@ def test_file(v_data, filename):
     t_start = question["start"]
     t_end = question["end"]
 
+    # check if timestamps are not added (or None)
     if t_start is None or t_end is None:
         raise Exception(f"{filename}: Question 1 has empty timestamps! {question}")
 
+    # check if duration is negative
     duration = t_end - t_start
-    if (duration < 0):
+    if duration < 0:
         raise Exception(f"{filename}: Question 1's duration is negative!"
                         f"\n{t_end} - {t_start} = {t_end - t_start}")
+
+    # warn if duration is longer than half a minute (30 seconds)
+    if duration > 30:
+        warn(f"{filename}: Question 1 is over {duration} seconds long.")
 
 
     # check if `answers` is in v_data
