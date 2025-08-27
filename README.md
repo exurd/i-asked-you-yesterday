@@ -17,6 +17,9 @@ Adding support for more YIAY snippets means creating a new YAML file to support 
 
 YouTube has a feature to show the seconds and milliseconds the video is on. Right click the video frame and turn on "Stats for nerds". Look for the "Mystery Text" row; there should be a variable called `t`. Use that number as well as the `<` and `>` keys to find the best frame to start and end the snippet on.
 
+> [!TIP]
+>  To avoid seeing jarring frame cuts when the segment is downloaded, get the second to last frame you want. The `t` variable might display the wrong number, so be sure to check if the frame you're on is the right time you need.
+
 Once you have finished marking all of the clips in the video, test if the YAML works on your end by running the download script. If these new clips look normal, great! Otherwise, keep tweaking the numbers until they look nice.
 
 Sometimes a blank frame may appear instead of a normal frame; I have no idea how to fix it, but if you have a solution to this please let me know!
