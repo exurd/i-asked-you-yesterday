@@ -15,6 +15,10 @@ You can help contribute to this repo by forking it. Please make sure to create a
 
 Adding support for more YIAY snippets means creating a new YAML file to support a new video. `template.yaml` on the root of this repo will help you with this.
 
+`timestamp` is the UNIX timestamp of when someone last edited the YAML file. `video_id` is for the YouTube video ID. `question` and `answers` is for the segments.
+
+Each segment needs a `start` and an `end` in seconds and milliseconds (e.g. `12.34`, `324.45`, `15.00`, etc.). *Do not put in minutes or hours.*
+
 YouTube has a feature to show the seconds and milliseconds the video is on. Right click the video frame and turn on "Stats for nerds". Look for the "Mystery Text" row; there should be a variable called `t`. Use that number as well as the `<` and `>` keys to find the best frame to start and end the snippet on.
 
 > [!TIP]
