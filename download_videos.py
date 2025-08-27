@@ -53,12 +53,7 @@ def run_com(command):
     
     Return True if command runs with no errors, otherwise return False.
     """
-    try:
-        subprocess.run(command, check=True)
-        return True
-    except subprocess.CalledProcessError as e:
-        print(f"An error has occurred! {e}")
-    return False
+    return subprocess.run(command, check=True)
 
 
 def download_yt_segment(video_id, section_timestamps, name, type):
@@ -66,6 +61,7 @@ def download_yt_segment(video_id, section_timestamps, name, type):
         "yt-dlp",
         f"https://www.youtube.com/watch?v={video_id}",
         "--force-keyframes-at-cuts",  # https://github.com/yt-dlp/yt-dlp/issues/2220#issuecomment-2579162159
+        "--abort-on-error",
         "-t", "mp4", "-o", f"./segment_downloads/{type}s/{name}_{type}_%(autonumber)03d.%(ext)s"
     ]
     # add section timestamps
