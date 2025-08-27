@@ -47,6 +47,16 @@ def test_file(v_data, filename):
     - Multiple answer segments in seconds and miliseconds
     """
 
+    # check if `timestamp` is in v_data
+    if not "timestamp" in v_data:
+        raise Exception(f"{filename}: Modified timestamp was not found in YAML file!")
+
+
+    # check if the timestamp is unmodifed (0)
+    if v_data["timestamp"] == 0:
+        raise Exception(f"{filename}: Modified timestamp is 0! Please add the current UNIX timestamp to the YAML file.")
+
+
     # check video id is valid
     video_id = str(v_data["video_id"])
     if not YT_VIDEO_ID_PATTERN.match(video_id):
