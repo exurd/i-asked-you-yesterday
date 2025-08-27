@@ -1,0 +1,54 @@
+timestamp: 1756301112
+
+# My computer died, and I can't edit. What should I do?
+video_id: eAan3Zd9GI4
+
+questions:
+  - id: 1
+    start: 1.93
+    end: 11.90
+
+# oh this one's gonna be super easy to segement
+answers:
+  - id: 1
+    start: 26.61
+    end: 39.18
+  - id: 2
+    start: 43.43
+    end: 59.55
+  - id: 3
+    start: 65.03
+    end: 73.24
+  - id: 4
+    start: 88.16
+    end: 98.45
+  - id: 5
+    start: 115.41
+    end: 123.89
+  - id: 6
+    start: 169.66
+    end: 188.74
+  - id: 7
+    start: 237.77
+    end: 240.92
+  - id: 8
+    start: 318.10
+    end: 329.74
+  - id: 9
+    start: 454.35
+    end: 463.19
+  - id: 10
+    start: 508.55
+    end: 516.11
+  - id: 11
+    start: 546.65
+    end: 554.66
+  - id: 12
+    start: 569.17
+    end: 573.80
+  - id: 13
+    start: 645.43
+    end: 650.10
+  - id: 14
+    start: 837.95
+    end: 840.76
