@@ -47,7 +47,7 @@ subprocess.run([
 
 # merge clips together
 cmd = [
-    "ffmpeg",
+    "ffmpeg", "-y",
     "-i", tmp_q, "-i", tmp_a,
     "-filter_complex",
     "[0:v][0:a][1:v][1:a]concat=n=2:v=1:a=1[outv][outa]",
