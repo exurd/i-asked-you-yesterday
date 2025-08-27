@@ -1,0 +1,124 @@
+timestamp: 1756256898
+
+# What should we put on YIAY's tombstone?
+video_id: nhd5r-FtY6s
+
+question:
+  start: 14.87
+  end: 18.68
+
+answers:
+  - id: 1
+    start: 21.44
+    end: 27.30
+  - id: 2
+    start: 44.50
+    end: 48.67
+  - id: 3
+    start: 52.22
+    end: 61.19
+  - id: 4
+    start: 72.28
+    end: 77.21
+  - id: 5
+    start: 77.24
+    end: 84.60
+  - id: 6
+    start: 90.52
+    end: 93.07
+  - id: 7
+    start: 99.45
+    end: 104.58
+  - id: 8
+    start: 108.23
+    end: 129.89
+  - id: 9
+    start: 144.94
+    end: 149.27
+  - id: 10
+    start: 154.85
+    end: 157.80
+  - id: 11
+    start: 165.31
+    end: 172.16
+  - id: 12
+    start: 179.43
+    end: 184.83
+  - id: 13
+    start: 189.69
+    end: 196.82
+  - id: 14
+    start: 203.58
+    end: 214.94
+  - id: 15
+    start: 224.66
+    end: 228.41
+  - id: 16
+    start: 238.46
+    end: 248.37
+  - id: 17
+    start: 248.40
+    end: 258.05
+  - id: 18
+    start: 265.08
+    end: 271.35
+  - id: 19
+    start: 368.44
+    end: 377.02
+  - id: 20
+    start: 392.32
+    end: 396.61
+  - id: 21
+    start: 410.17
+    end: 417.16
+  - id: 22
+    start: 417.19
+    end: 438.58
+  - id: 23
+    start: 438.62
+    end: 443.68
+  - id: 24
+    start: 448.21
+    end: 455.09
+  - id: 25
+    start: 460.01
+    end: 473.53
+  - id: 26
+    start: 483.29
+    end: 489.69
+  - id: 27
+    start: 489.73
+    end: 496.43
+  - id: 28
+    start: 496.46
+    end: 507.65
+  - id: 29
+    start: 507.68
+    end: 513.19
+  - id: 30
+    start: 516.64
+    end: 526.35
+  - id: 31
+    start: 526.38
+    end: 531.37
+  - id: 32
+    start: 531.40
+    end: 539.71
+  - id: 33
+    start: 539.74
+    end: 548.62
+  - id: 34
+    start: 565.84
+    end: 578.32
+  - id: 35
+    start: 578.36
+    end: 583.86
+  - id: 36
+    start: 583.89
+    end: 597.13
+  - id: 37
+    start: 604.85
+    end: 609.06
+  - id: 38
+    start: 610.32
+    end: 612.73
