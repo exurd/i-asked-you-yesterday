@@ -7,7 +7,7 @@
 2. Clone this repository (or download the .zip file of the code via the green button above)
 3. Install pip requirements (`pip install -r requirements.txt`)
 4. Run `python3 download_videos.py`
-    1. A new folder called `segment_downloads` will be created
+    1. A new folder called `segment_downloads` will be created, with two subfolders: `questions` and `answers`.
 5. Use any video randomizer to playback the videos in `segment_downloads`
 
 # Contribution
@@ -15,7 +15,7 @@ You can help contribute to this repo by forking it. Please make sure to create a
 
 Adding support for more YIAY snippets means creating a new YAML file to support a new video. `template.yaml` on the root of this repo will help you with this.
 
-`timestamp` is the UNIX timestamp of when someone last edited the YAML file. `video_id` is for the YouTube video ID. `question` and `answers` is for the segments.
+`timestamp` is the UNIX timestamp of when someone last edited the YAML file. `video_id` is for the YouTube video ID. `questions` and `answers` is for the segments.
 
 Each segment needs a `start` and an `end` in seconds and milliseconds (e.g. `12.34`, `324.45`, `15.00`, etc.). *Do not put in minutes or hours.*
 
@@ -24,7 +24,7 @@ YouTube has a feature to show the seconds and milliseconds the video is on. Righ
 > [!TIP]
 >  To avoid seeing jarring frame cuts when the segment is downloaded, get the second to last frame you want. The `t` variable might display the wrong number, so be sure to check if the frame you're on is the right time you need.
 
-Once you have finished marking all of the clips in the video, test if the YAML works on your end by running the download script. If these new clips look normal, great! Otherwise, keep tweaking the numbers until they look nice.
+Once you have finished marking all of the clips in the video, test if the YAML works on your end by running `test_yaml.py` and `download_videos.py` scripts. If the downloaded segments look as expected, great! Otherwise, keep tweaking the numbers until they look nice.
 
 Sometimes a blank frame may appear instead of a normal frame; I have no idea how to fix it, but if you have a solution to this please let me know!
 
